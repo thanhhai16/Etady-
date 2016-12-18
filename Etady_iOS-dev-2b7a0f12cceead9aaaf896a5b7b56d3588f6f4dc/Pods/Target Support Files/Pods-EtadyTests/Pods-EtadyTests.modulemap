@@ -1,0 +1,6 @@
+framework module Pods_EtadyTests {
+  umbrella header "Pods-EtadyTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

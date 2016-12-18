@@ -1,0 +1,53 @@
+PODS:
+  - Alamofire (3.5.1)
+  - GoogleMaps (2.1.1):
+    - GoogleMaps/Maps (= 2.1.1)
+  - GoogleMaps/Base (2.1.1)
+  - GoogleMaps/Maps (2.1.1):
+    - GoogleMaps/Base
+  - GooglePlaces (2.1.1):
+    - GoogleMaps/Base (= 2.1.1)
+  - NVActivityIndicatorView (2.12)
+  - OAStackView (1.0.1)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SwiftyJSON (2.4.0)
+  - Toast-Swift (1.4.0)
+  - XLPagerTabStrip (5.1.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.5.1)
+  - GoogleMaps
+  - GooglePlaces
+  - NVActivityIndicatorView (from `https://github.com/ninjaprox/NVActivityIndicatorView.git`, branch `swift2.3`)
+  - OAStackView
+  - SDWebImage
+  - SwiftyJSON (= 2.4.0)
+  - Toast-Swift (~> 1.4.0)
+  - XLPagerTabStrip (~> 5.0)
+
+EXTERNAL SOURCES:
+  NVActivityIndicatorView:
+    :branch: swift2.3
+    :git: https://github.com/ninjaprox/NVActivityIndicatorView.git
+
+CHECKOUT OPTIONS:
+  NVActivityIndicatorView:
+    :commit: ac4325492550b9ec9516e3a9b6e28b2c07faa1c6
+    :git: https://github.com/ninjaprox/NVActivityIndicatorView.git
+
+SPEC CHECKSUMS:
+  Alamofire: 0dfba1184a543e2aa160f4e39cac4e8aba48d223
+  GoogleMaps: a5b5bbe47734e2443bde781a6aa64e69fdb6d785
+  GooglePlaces: 35636d86e5020cba3856eb988c09a5491de0a65a
+  NVActivityIndicatorView: de8be03826726ad99cdfacf7fe09e88cbfeef911
+  OAStackView: 95e7cb79cbea25c2342f496a44bdbe8bd4c8d510
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SwiftyJSON: 96918c1bf505efa50c4f72957018dd3452090c9c
+  Toast-Swift: aa9f0120aa6f0b6186a1e7fce2797571be34d857
+  XLPagerTabStrip: 9191deaa2336735b7c47beb21e42be537fa4242a
+
+PODFILE CHECKSUM: 56c27c372ac8ac6d551f0229ce1295cd076e68f1
+
+COCOAPODS: 1.1.1
